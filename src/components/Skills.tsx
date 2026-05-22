@@ -76,7 +76,7 @@ const getSkillLevel = (skill: string): 'core' | 'proficient' => {
 
 export default function Skills() {
   return (
-    <section id="skills" className="relative py-28 overflow-hidden border-t border-white/5 bg-[#030303]">
+    <section id="skills" className="relative py-16 md:py-28 overflow-hidden border-t border-white/5 bg-[#030303]">
       {/* Background Radial Glow */}
       <div className="glow-bg-blue bottom-[-10%] left-[-5%] opacity-60" />
       
@@ -111,7 +111,7 @@ export default function Skills() {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: '-100px' }}
+          viewport={{ once: true, margin: '-30px' }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center"
         >
           {skillCategories.map((category, index) => (

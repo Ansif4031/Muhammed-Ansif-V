@@ -226,7 +226,7 @@ export default function Contact() {
             {/* Social Links Footer */}
             <div className="flex items-center gap-4 mt-8">
               <a
-                href="https://github.com/MuhammadAnsif"
+                href="https://github.com/Ansif4031"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-xl bg-white/[0.01] hover:bg-white/[0.05] border border-white/5 hover:border-white/10 flex items-center justify-center text-dark-muted hover:text-white transition-all duration-300"
@@ -235,7 +235,7 @@ export default function Contact() {
                 <Github size={20} />
               </a>
               <a
-                href="https://www.linkedin.com/in/muhammed-ansif-v-860081254/"
+                href="https://www.linkedin.com/in/mhammedansif/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-xl bg-white/[0.01] hover:bg-white/[0.05] border border-white/5 hover:border-white/10 flex items-center justify-center text-dark-muted hover:text-white transition-all duration-300"

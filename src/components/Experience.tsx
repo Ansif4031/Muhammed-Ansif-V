@@ -51,7 +51,7 @@ const experiences: ExperienceItem[] = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="relative py-28 overflow-hidden border-t border-white/5 bg-[#05050A]/40">
+    <section id="experience" className="relative py-16 md:py-28 overflow-hidden border-t border-white/5 bg-[#05050A]/40">
       {/* Background decoration */}
       <div className="glow-bg-purple top-[10%] right-[-10%] opacity-55 animate-glow-slow" />
       <div className="glow-bg-indigo bottom-[10%] left-[-15%] opacity-55 animate-glow-slow" />
@@ -80,7 +80,7 @@ export default function Experience() {
               key={index}
               initial={{ opacity: 0, x: -25 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: '-100px' }}
+              viewport={{ once: true, margin: '-30px' }}
               transition={{ duration: 0.55, delay: index * 0.15 }}
               className="relative w-full"
             >

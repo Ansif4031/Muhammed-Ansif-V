@@ -3,7 +3,7 @@ import { FileText, Mail, Briefcase } from 'lucide-react';
 
 export default function OpenToWork() {
   return (
-    <section className="relative py-20 overflow-hidden border-t border-white/5 bg-[#030303]">
+    <section className="relative py-10 md:py-20 overflow-hidden border-t border-white/5 bg-[#030303]">
       {/* Background Radial Glow */}
       <div className="glow-bg-indigo top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-35" />
 
@@ -11,7 +11,7 @@ export default function OpenToWork() {
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true, margin: '-100px' }}
+          viewport={{ once: true, margin: '-30px' }}
           transition={{ duration: 0.5 }}
           className="relative p-8 md:p-12 rounded-3xl bg-dark-card/75 border border-white/10 shadow-glass-lg backdrop-blur-md overflow-hidden text-center group"
         >

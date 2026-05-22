@@ -42,7 +42,7 @@ const pillars: Pillar[] = [
 
 export default function About() {
   return (
-    <section id="about" className="relative py-28 overflow-hidden border-t border-white/5 bg-[#05050a]/40">
+    <section id="about" className="relative py-16 md:py-28 overflow-hidden border-t border-white/5 bg-[#05050a]/40">
       {/* Decorative Blur */}
       <div className="absolute top-[25%] right-[-10%] w-96 h-96 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
 
@@ -62,7 +62,7 @@ export default function About() {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
+            viewport={{ once: true, margin: '-30px' }}
             transition={{ duration: 0.5 }}
             className="lg:col-span-6 flex flex-col md:flex-row gap-8 items-start text-left"
           >
@@ -148,7 +148,7 @@ export default function About() {
                   key={index}
                   initial={{ opacity: 0, y: 25 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: '-100px' }}
+                  viewport={{ once: true, margin: '-30px' }}
                   transition={{ duration: 0.45, delay: index * 0.1 }}
                   className={`p-6 rounded-2xl border border-white/5 bg-gradient-to-br ${pillar.color} backdrop-blur-md flex flex-col text-left group transition-all duration-300 hover:scale-[1.01] hover:-translate-y-1 ${pillar.borderColor} shadow-glass-sm`}
                 >

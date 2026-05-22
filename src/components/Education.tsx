@@ -57,7 +57,7 @@ const certificationRecords: CertificationItem[] = [
 
 export default function Education() {
   return (
-    <section id="education" className="relative py-24 overflow-hidden border-t border-white/5 bg-[#030303]">
+    <section id="education" className="relative py-16 md:py-24 overflow-hidden border-t border-white/5 bg-[#030303]">
       {/* Background Radial Glow */}
       <div className="glow-bg-indigo top-[20%] left-[-10%] opacity-40" />
 
@@ -80,7 +80,7 @@ export default function Education() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
+            viewport={{ once: true, margin: '-30px' }}
             transition={{ duration: 0.5 }}
             className="lg:col-span-12 max-w-3xl mx-auto w-full flex flex-col gap-6 text-left"
           >
@@ -148,7 +148,7 @@ export default function Education() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
+            viewport={{ once: true, margin: '-30px' }}
             transition={{ duration: 0.5, delay: 0.15 }}
             className="lg:col-span-5 flex flex-col gap-6 text-left"
           >

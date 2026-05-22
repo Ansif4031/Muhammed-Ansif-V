@@ -280,7 +280,7 @@ export default function Projects() {
     : projects.filter(p => p.category === filter);
 
   return (
-    <section id="projects" className="relative py-28 overflow-hidden border-t border-white/5 bg-[#05050A]/40">
+    <section id="projects" className="relative py-16 md:py-28 overflow-hidden border-t border-white/5 bg-[#05050A]/40">
       {/* Background glow overlay */}
       <div className="glow-bg-purple bottom-[-10%] right-[-5%] opacity-60 animate-glow-slow" />
       <div className="glow-bg-indigo top-[10%] left-[-10%] opacity-40 animate-glow-slow" />
@@ -320,7 +320,7 @@ export default function Projects() {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: '-100px' }}
+          viewport={{ once: true, margin: '-30px' }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left"
         >
           {filteredProjects.map((project, index) => (
