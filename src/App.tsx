@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="relative w-full min-h-screen bg-[#030303] text-gray-100 flex flex-col antialiased">
+    <div className="relative w-full min-h-screen bg-white text-[#0F172A] flex flex-col antialiased">
       {/* Sticky top-level Glass Navbar */}
       <Navbar />
 
